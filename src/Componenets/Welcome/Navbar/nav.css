@@ -1,0 +1,34 @@
+@media screen and (max-width:600px) {
+    .nav-list{
+        font-size: 1rem;
+        display: flex;
+        justify-content: flex-start;
+        padding: 0px 0px 0px 0px;
+        padding-left: 12px;
+        gap: 0.9rem;
+    }
+}
+/* For input box and login button */
+@media screen and (max-width:500px) {
+    .login-btn{
+        
+    }
+    .input-box-li>input{
+        width:11rem;
+    }
+    .container>ul{
+        margin-left: -1rem;
+    }
+}
+.nav-list > li {
+    border-bottom: 2px solid transparent; 
+    cursor: pointer;
+}
+
+.nav-list > li:hover {
+    border-bottom: 2px solid red;
+    color: red;
+}
+.img-container{
+    width:30%;
+}

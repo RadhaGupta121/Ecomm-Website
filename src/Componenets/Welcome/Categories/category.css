@@ -1,0 +1,44 @@
+.category-cotainer{
+    width: 80%;
+    margin: auto;
+    margin-top: 5rem;
+}
+.categories-name>table{
+  border-collapse: collapse;
+  border:2px solid black;
+}
+/* border-2 px-6 py-4 */
+.table>td{
+  border: 2px;
+  padding:4px 4px 4px 4px;
+}
+.category>img{
+    height: 30rem;
+}
+@media screen and (max-width:1024px) {
+  .category{
+    width: 80%;
+  }
+  .category>img{
+    width: 100%;
+  }
+  .table{
+    width: 50%;
+    font-size: 12px;
+
+  }
+  .table>td{
+   
+   border:1px;
+   padding:0.4px 0.4px 0.4px 0.4px;
+  }
+.block>h1{
+  text-align: center;
+}
+}
+/* @media  screen and (max-width:800px) {
+  .buttons{
+      gap:12px;
+      font-size: 12px;
+  }
+} */

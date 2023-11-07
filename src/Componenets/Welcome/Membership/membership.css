@@ -1,0 +1,16 @@
+.img-container>div{
+  width: 50%;
+  margin:auto;
+   margin-top: 7px;
+   margin-bottom: 7px;
+   
+}
+.img-container{
+    width: 50%;
+    margin-top:2.5rem;
+}
+.img-container>div>img{
+    width: 97%;
+    height: 100%;
+    
+}

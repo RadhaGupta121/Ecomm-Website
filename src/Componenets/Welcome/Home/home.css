@@ -1,0 +1,31 @@
+@media  screen and (max-width:800px) {
+    .buttons{
+        gap:12px;
+        font-size: 12px;
+    }
+}
+.product-list{
+    width: 80%;
+}
+.product-main{
+    padding-top:12px;
+    
+}
+.product-main>h3{
+   padding: 12px 12px 0px 12px;
+    color:green;
+    font-weight: bold;
+    font-size: 1rem;
+    text-align: center;
+}
+.container>p{
+    padding: 12px 12px 0px 12px;
+     color: grey;
+     font-weight: 600;
+     font-size: 0.9rem;
+     text-align: center;
+ }
+.product-main>img{
+    margin:auto;
+    padding-top: 1.4rem;
+}

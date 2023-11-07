@@ -1,0 +1,41 @@
+.subscribe{
+    width:50%;
+}
+.img-container{
+    width:50%;
+}
+@media screen and (max-width:800px) {
+    .subscribe{
+        width: 90%;
+    }
+    .img-container{
+        width: 100%;
+    }
+    .subs{
+        width: 100%;
+        margin-top: -14px;
+    }
+}
+.subs{
+    width: 50%;
+    margin-top: 6rem;
+}
+.subs>p{
+    text-align: left;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.subs>h5{
+    text-align: left;
+    font-size: 20px;
+    color:gray;
+    font-weight: 200;
+}
+.subs>input{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border:2px solid grey;
+    border-radius: 1rem;
+    width:100%;
+    padding:0.6rem;
+}
