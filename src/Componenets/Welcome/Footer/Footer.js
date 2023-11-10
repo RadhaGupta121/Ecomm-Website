@@ -53,6 +53,9 @@ const Footer=()=>{
              <li>Gift Cards</li>
         </ul>
         </div>
+        <div className='bg-black h-12'>
+              <p className='text-center text-white pt-2'>Copyright © 2023   ❤️Radha Gupta</p>
+        </div>
        </div>
         
         </>
