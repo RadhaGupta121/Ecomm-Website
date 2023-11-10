@@ -1,0 +1,27 @@
+//name, email, address, phonenumber, age , gender
+module.exports.users=[
+    {
+        name:"RAdha",
+        email:"radhagupta@gmail.com",
+        address:"123453SKILK",
+        phonenumber:"898999999",
+        age:20,
+        gender:"female"
+    },
+    {
+        name:"Menka",
+        email:"radhagupta@gmail.com",
+        address:"123453SKILK",
+        phonenumber:"898999999",
+        age:20,
+        gender:"female"
+    },
+    {
+        name:"Rachna",
+        email:"radhagupta@gmail.com",
+        address:"123453SKILK",
+        phonenumber:"898999999",
+        age:20,
+        gender:"female"
+    }
+]

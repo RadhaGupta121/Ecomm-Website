@@ -22,3 +22,8 @@
 .heading{
     color:rgb(234, 74, 74);
 }
+@media screen and (max-width:780px) {
+    .heading{
+        padding-bottom: 2px;
+    }
+}

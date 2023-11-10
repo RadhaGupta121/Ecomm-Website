@@ -6,6 +6,7 @@ import { addToCart } from '../../Slices/addToCartSlice';
 import { Link } from 'react-router-dom';
 import ViewProduct from '../ViewProduct/ViewProduct';
 import { mywishlist } from '../../Slices/addTowishlist';
+import './product.css';
 const Product=(props)=>{
 
 
@@ -34,13 +35,13 @@ const Product=(props)=>{
  
 
       <Card.Body>
-        <Card.Title>{props.name}</Card.Title>
+        <Card.Title className='card-title'>{props.name}</Card.Title>
         {/* <Card.Text>{props.description}</Card.Text> */}
         <Card.Text>
          {props.price}$
         </Card.Text>
      <Button className='addtocart bg-pink-500 border-none' variant="primary" onClick={() => dispatch(addToCart(detail))}>  <i className="fa fa-shopping-cart"></i>Add to Cart</Button>
-   <span style={{marginLeft:"1rem"}}><i className='fa fa-heart fa-2x  wishlist'  onClick={(e)=>handleWish(e)}></i></span> 
+   <span style={{marginLeft:"1rem"}}><i className='fa fa-heart   wishlist'  onClick={(e)=>handleWish(e)}></i></span> 
       </Card.Body>
       
     </Card>

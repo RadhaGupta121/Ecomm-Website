@@ -17,7 +17,7 @@ const CoupenByCategories=()=>{
        <h1 className="text-center text-black text-3xl font-semibold font-serif py-12">Coupon By Categories</h1>
        <div className="container">
         <div className="icons flex justify-evenly flex-wrap ">
-            <Icons img={fashion} title="Fashion"/>
+            {/* <Icons img={fashion} title="Fashion"/> */}
             <Icons img={food} title="food"/>
             <Icons img={Beauty} title="Beauty"/>
             <Icons img={Toys} title="Toys"/>

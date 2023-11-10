@@ -14,15 +14,17 @@ import SearchBar from './Componenets/Welcome/Navbar/SearchBar';
 import NavigationBar from './Componenets/Welcome/Navbar/NavigationBar';
 import FilteredProduct from './Componenets/Filters/FilteredProduct';
 import Contact from './Componenets/ContactUs/Contact';
+import SecondNavbar from './Componenets/Welcome/Navbar/SecondNavbar';
 function App() {
   return (
     <>
     <BrowserRouter>
     <div className='fixed top-0 left-0 w-full z-10 bg-black '>
-    <SearchBar/>
-    <NavigationBar/>
+    {/* <SearchBar/> */}
+    {/* <NavigationBar/> */}
+    <SecondNavbar/>
     </div>
-    <div className='mt-80'>
+    <div className='mt-64'>
     <Routes>
       
      

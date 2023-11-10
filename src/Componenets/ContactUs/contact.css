@@ -1,0 +1,18 @@
+@media screen and (max-width:780px){
+    
+    .contact-box{
+     width: 20rem;
+     margin: auto;
+    }
+    .contact-box>h1{
+      
+        color:"red";
+        font-size: 18px;
+    }
+    .contact-img{
+        width: auto;
+    } 
+    .footer-container{
+        margin-top:25rem;
+    } 
+}

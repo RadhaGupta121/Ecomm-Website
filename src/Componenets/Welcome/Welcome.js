@@ -14,7 +14,7 @@ import Footer from './Footer/Footer';
 function Welcome() {
   return (
     <>
- 
+ <div className='-mt-40'>
  <Home/>
  <DealsOfTheDay/>
  <CoupenByCategories/>
@@ -24,6 +24,7 @@ function Welcome() {
  <BecomePartOfTeams/>
  <Categories/>
  <Footer/>
+ </div>
  </>
   );
 }
