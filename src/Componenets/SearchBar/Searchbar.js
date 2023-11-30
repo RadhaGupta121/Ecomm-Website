@@ -7,6 +7,13 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import {Link} from 'react-router-dom';
 
 function Searchbar() {
+ async function SearchMe()
+  {
+    const searchedData=await fetch('https://dummyjson.com/products/search?q=phone')
+.then(res => res.json())
+.then(json=>console.log("This is searchData",json));
+
+  }
   return (
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container fluid>
@@ -47,6 +54,7 @@ function Searchbar() {
               placeholder="Search"
               className="me-2"
               aria-label="Search"
+              onChange={(e)=>SearchMe(e.target.value)}
             />
             <Button variant="outline-success">Search</Button>
           </Form>

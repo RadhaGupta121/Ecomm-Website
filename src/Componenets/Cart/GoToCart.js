@@ -1,14 +1,20 @@
-import {  useState } from "react";
+import {  useEffect, useState } from "react";
 import { useSelector } from "react-redux";
 import Product from "../Products/Product";
 
 const GoToCart=()=>{
   const allitem=JSON.parse(localStorage.getItem("cartItems"));
   console.log(allitem);
-  
+  let [totalPrice,setTotalPrice]=useState(0);
+  useEffect(()=>{
+       allitem.forEach(item => {
+       console.log(item);
+        setTotalPrice((prev)=>prev+item.price);
+       });
+  },[])
    if(!allitem)return <h1 style={{textAlign:"center"}}>Cart is empty!</h1>
    else{
-
+console.log(totalPrice);
     return(
       <>
       <div className="Products" style={{ display: "flex", justifyContent: "center", gap: "5rem" }}>

@@ -15,6 +15,7 @@ import NavigationBar from './Componenets/Welcome/Navbar/NavigationBar';
 import FilteredProduct from './Componenets/Filters/FilteredProduct';
 import Contact from './Componenets/ContactUs/Contact';
 import SecondNavbar from './Componenets/Welcome/Navbar/SecondNavbar';
+import SearchProduct from './Componenets/Filters/SearchProduct';
 function App() {
   return (
     <>
@@ -37,7 +38,7 @@ function App() {
      <Route path='/wishlist' element={<MyWishList/>}/> 
      <Route path='/filter' element={<Filter/>}/> 
      <Route path='/contact' element={<Contact/>}/> 
-    
+     <Route path='/search/:product' element={<SearchProduct/>}/>
     </Routes>
     </div>
     </BrowserRouter>

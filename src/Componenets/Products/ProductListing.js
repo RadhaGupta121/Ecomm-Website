@@ -17,9 +17,9 @@ function ProductListing() {
             // setData(response.data);
             // console.log(data);
             // setLoading(false);
-           await fetch('https://fakestoreapi.com/products')
+           await fetch('https://dummyjson.com/products')
             .then(res=>res.json())
-            .then(json=>setData(json))
+            .then(json=>setData(json.products))
             .then(setLoading(false));
            
         } catch (error) {
@@ -36,8 +36,8 @@ function ProductListing() {
 
                     ) :
                     data.map((product) => (
-                        <Product key={product.id} id={product.id} img={product.image}
-                         price={product.price} name={product.title} description={product.description} />
+                        <Product key={product.id} id={product.id} img={product.thumbnail} brand={product.brand}
+                        rating={product.rating} price={product.price} name={product.title} description={product.description} />
 
                     ))
                 }
