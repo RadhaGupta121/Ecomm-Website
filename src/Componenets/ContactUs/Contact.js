@@ -17,7 +17,7 @@ function Contact() {
     return (
       <>
         <div className='contact flex justify-end gap-10 m-auto  flex-wrap h-96'>
-           <div className='contact-box mt-4 mb-2 py-4 bg-slate-200 w-96'>
+           <div className='contact-box m-auto mt-4 mb-2 py-4 bg-slate-200 w-96'>
             <h1 className='text-center text-black font-bold text-4xl mb-4'>Contact Us</h1>
             <div className='mx-8 '>
            <input className='border-2 border-red-500 border-solid mx-3 my-2 px-3 py-1 w-full ' type='text' placeholder='Enter your name'/><br/>
